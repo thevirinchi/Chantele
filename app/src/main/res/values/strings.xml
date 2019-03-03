@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">Chante\'le</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_on_board">Chantele</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <!-- onBoard strings -->
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="tabIndicator1">Tab Indicator 1</string>
+    <string name="tabIndicator2">Tab Indicator 2</string>
+    <string name="tabIndicator3">Tab Indicator 3</string>
 </resources>

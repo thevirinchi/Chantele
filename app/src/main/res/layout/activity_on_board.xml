@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".onBoard">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="?attr/actionBarSize"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:alpha="0.12"
+        android:background="@android:color/white"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_gravity="bottom"
+        android:paddingStart="@dimen/activity_horizontal_margin"
+        android:paddingEnd="@dimen/activity_horizontal_margin">
+
+        <Button
+            android:id="@+id/introSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/skip"
+            android:textColor="@color/colorAccent"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/intro0"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/ic_selected_dot"
+                android:contentDescription="@string/tabIndicator1"/>
+
+            <ImageView
+                android:id="@+id/intro1"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/ic_unselected_dot"
+                android:contentDescription="@string/tabIndicator2"/>
+
+            <ImageView
+                android:id="@+id/intro2"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/ic_unselected_dot"
+                android:contentDescription="@string/tabIndicator3"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/introFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:text="@string/finish"
+            android:textColor="@color/colorAccent"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/introNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:src="@drawable/ic_arrow_forward_black_24dp"
+            android:tint="@color/colorAccent"
+            android:contentDescription="@string/next"/>
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>
