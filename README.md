@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
         Google Play Instant Development SDK (Optional)
         Google USB Driver
         Google Web Driver
-        complete *Support Repository*
+        Support Repository (all)
      ```
      
 ### Cloning Project
@@ -34,7 +34,7 @@ Close any project if open.
 If you have `Chantele` listed in the Left Pane, then open the project.
 Else click on `Check out project from Version Control` (GitHub is a version control system)
   1. *Select* **Git** from the drop down.
-  2. Now *copy* the URL of this repo in the **URL** field.
+  2. Now *copy* the URL of this repo in the **URL** field.\
     ```
       https://github.com/z3t4z00k/Chantele.git
     ```
