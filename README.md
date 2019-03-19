@@ -19,6 +19,7 @@ These instructions will get you a copy of the project up and running on your loc
      3. Download all the SDK Platforms from API lvl 23 till API lvl 28 **(inclusive)**
      4. Head over to *SDK Tools* now. which is the second tab in the Android SDK tab.
      5. Download the following:
+     ```
         - Android SDK Build-Tools 29-rc1
         - Android SDK Platform-Tools
         - Android SDK Tools
@@ -26,7 +27,8 @@ These instructions will get you a copy of the project up and running on your loc
         - Google USB Driver
         - Google Web Driver
         - complete *Support Repository*
-        
+     ```
+     
 ### Cloning Project
 Close any project if open.
 If you have `Chantele` listed in the Left Pane, then open the project.
@@ -43,7 +45,6 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
  
 ###  Work Divide
   Tasks
-  - [ ] foo
   - [x] On-Boarding Activity
   - [ ] Login/Signup Activity (under dev)
   - [ ] Main Activity ------- (under dev)
