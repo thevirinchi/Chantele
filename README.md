@@ -48,7 +48,7 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
   - [x] On-Boarding Activity
   - [ ] Login/Signup Activity (under dev)
   - [ ] Main Activity ------- (under dev)
-  - [ ] Settings Activity --- [@github/dirag](https://github.com/dirag)
-  - [ ] FAQ Activity -------- (@sanjana2070)
+  - [ ] Settings Activity --- [@dirag](https://github.com/dirag)
+  - [ ] FAQ Activity -------- [@sanjana2070](https://github.com/sanjana2070)
   - [ ] Song Details Activity (TBD)
-  - [ ] User Profile Activity (@jainritika1203)
+  - [ ] User Profile Activity [@jainritika1203](https://github.com/jainritika1203)
