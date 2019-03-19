@@ -20,13 +20,13 @@ These instructions will get you a copy of the project up and running on your loc
      4. Head over to *SDK Tools* now. which is the second tab in the Android SDK tab.
      5. Download the following:
      ```
-        - Android SDK Build-Tools 29-rc1
-        - Android SDK Platform-Tools
-        - Android SDK Tools
-        - Google Play Instant Development SDK (Optional)
-        - Google USB Driver
-        - Google Web Driver
-        - complete *Support Repository*
+        Android SDK Build-Tools 29-rc1
+        Android SDK Platform-Tools
+        Android SDK Tools
+        Google Play Instant Development SDK (Optional)
+        Google USB Driver
+        Google Web Driver
+        complete *Support Repository*
      ```
      
 ### Cloning Project
