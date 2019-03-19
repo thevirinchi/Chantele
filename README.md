@@ -43,10 +43,10 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
  
 ###  Work Divide
   Tasks
-    1. [x] On-Boarding Activity
-    2. [ ] Login/Signup Activity (under dev)
-    3. [ ] Main Activity ------- (under dev)
-    4. [ ] Settings Activity --- (@dirag)
-    5. [ ] FAQ Activity -------- (@sanjana2070)
-    6. [ ] Song Details Activity (TBD)
-    7. [ ] User Profile Activity (@jainritika1203)
+    - [x] On-Boarding Activity
+    - [ ] Login/Signup Activity (under dev)
+    - [ ] Main Activity ------- (under dev)
+    - [ ] Settings Activity --- (@dirag)
+    - [ ] FAQ Activity -------- (@sanjana2070)
+    - [ ] Song Details Activity (TBD)
+    - [ ] User Profile Activity (@jainritika1203)
