@@ -5,7 +5,7 @@ An android app to identify songs using string-matching.
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
-1. Android Studio :lol:
+1. Android Studio :smile:
 2. Android Phone
    Enable `USB Debugging`:
     1. Goto **Settings** -> **About Phone**
