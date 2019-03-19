@@ -8,16 +8,14 @@ These instructions will get you a copy of the project up and running on your loc
 1. Android Studio :lol:
 2. Android Phone
    - Enable `USB Debugging`:
-    ```
-    1. Goto *Settings* -> *About Phone*
-    2. Tap on *Build Number* 7 times.
-    3. Now open *Developer Options*.
-    4. Under *Debugging*, enable *USB debugging*.
-    ```
+    1. Goto **Settings** -> **About Phone**
+    2. Tap on **Build Number**, *7 times*.
+    3. Now open **Developer Options**.
+    4. Under **Debugging**, enable **USB debugging**.
 3. Android SDK
    - Opening `SDK Manager`
      1. Close any open project.
-     2. Click on *Configure* -> *SDK Manager*
+     2. Click on **Configure** -> **SDK Manager**
      3. Download all the SDK Platforms from API lvl 23 till API lvl 28 **(inclusive)**
      4. Head over to *SDK Tools* now. which is the second tab in the Android SDK tab.
      5. Download the following:
