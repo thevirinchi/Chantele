@@ -35,9 +35,9 @@ If you have `Chantele` listed in the Left Pane, then open the project.
 Else click on `Check out project from Version Control` (GitHub is a version control system)
   1. *Select* **Git** from the drop down.
   2. Now *copy* the URL of this repo in the **URL** field.
-    '''
-    https://github.com/z3t4z00k/Chantele.git
-    '''
+    ```
+      https://github.com/z3t4z00k/Chantele.git
+    ```
   3. Now **Test** the URL and if it prompts to login, then enter your **GitHub's username and password**.
   4. Then click on **Clone**.
   5. The project will be cloned from the GitHub repo's Master branch in your local machine.
@@ -48,7 +48,7 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
   - [x] On-Boarding Activity
   - [ ] Login/Signup Activity (under dev)
   - [ ] Main Activity ------- (under dev)
-  - [ ] Settings Activity --- @github/dirag
+  - [ ] Settings Activity --- [@github/dirag](https://github.com/dirag)
   - [ ] FAQ Activity -------- (@sanjana2070)
   - [ ] Song Details Activity (TBD)
   - [ ] User Profile Activity (@jainritika1203)
