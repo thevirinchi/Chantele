@@ -44,15 +44,15 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
   6. Open the project as you would.
 
 ### Working on project
-To contribute to the project,
+- To contribute to the project:
   1. Clone/Update the project from GitHub
   2. *Create* a **New Branch** in your Android Studio:
      1. *Open* **VCS** menu
      2. *Goto* **Git** -> **Branches**
      3. *Create* a **New Branch** and then *enter* the **name of the activity** you will be working on.
      4. Note: Leave the **Checkout Branch** *checked*. Click **OK**.
-  3. Work in this branch till it's complete and focus only on that one task.
-Point to keep in mind:
+  3. Work in this branch till it's complete and focus only on that one task.\
+- Point to keep in mind:
    - Create **_different branches for different tasks_**.
    - Push and commit your branch regularly.
 
