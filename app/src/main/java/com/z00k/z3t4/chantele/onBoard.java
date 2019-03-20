@@ -82,8 +82,8 @@ public class onBoard extends AppCompatActivity {
         updateIndicators(page);
 
         final int color1 = ContextCompat.getColor(this, R.color.cyan);
-        final int color2 = ContextCompat.getColor(this, R.color.orange);
-        final int color3 = ContextCompat.getColor(this, R.color.green);
+        final int color2 = ContextCompat.getColor(this, R.color.green);
+        final int color3 = ContextCompat.getColor(this, R.color.orange);
 
         final int[] colorList = new int[]{color1, color2, color3};
 
