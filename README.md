@@ -8,27 +8,27 @@ These instructions will get you a copy of the project up and running on your loc
 1. Android Studio :laughing:
 2. Android Phone
    Enable `USB Debugging`:
-    1. Goto **Settings** -> **About Phone**
-    2. Tap on **Build Number**, *7 times*.
-    3. Now open **Developer Options**.
-    4. Under **Debugging**, enable **USB debugging**.
+   1. Goto **Settings** -> **About Phone**
+   2. Tap on **Build Number**, *7 times*.
+   3. Now open **Developer Options**.
+   4. Under **Debugging**, enable **USB debugging**.
 3. Android SDK
    Opening `SDK Manager`
-     1. Close any open project.
-     2. Click on **Configure** -> **SDK Manager**
-     3. Download **_all_** the SDK Platforms from **API lvl 23** till **API lvl 28** (**_inclusive_**)
-     4. Head over to **SDK Tools** now. which is the *second tab* in the Android SDK tab.
-     5. Download the following:
-     ```
-        Android SDK Build-Tools 29-rc1
-        Android SDK Platform-Tools
-        Android SDK Tools
-        Google Play Instant Development SDK (Optional)
-        Google USB Driver
-        Google Web Driver
-        Support Repository (all)
-     ```
-     
+   1. Close any open project.
+   2. Click on **Configure** -> **SDK Manager**
+   3. Download **_all_** the SDK Platforms from **API lvl 23** till **API lvl 28** (**_inclusive_**)
+   4. Head over to **SDK Tools** now. which is the *second tab* in the Android SDK tab.
+   5. Download the following:
+   ```
+      Android SDK Build-Tools 29-rc1
+      Android SDK Platform-Tools
+      Android SDK Tools
+      Google Play Instant Development SDK (Optional)
+      Google USB Driver
+      Google Web Driver
+      Support Repository (all)
+   ```
+
 ### Cloning Project
 Close any project if open.
 If you have `Chantele` listed in the Left Pane, then open the project.
@@ -42,7 +42,17 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
   4. Then click on **Clone**.
   5. The project will be cloned from the GitHub repo's Master branch in your local machine.
   6. Open the project as you would.
- 
+
+### Working on project
+To contribute to the project,
+  1. Clone/Update the project from GitHub
+  2. *Create* a **New Branch** in your Android Studio:
+     1. *Open* **VCS** menu
+     2. *Goto* **Git** -> **Branches**
+     3. *Create* a **New Branch** and then *enter* the **name of the activity** you will be working on.
+     4. Note: Leave the **Checkout Branch** *checked*. Click **OK**.
+
+
 ##  Work Divide
   Tasks
   - [x] On-Boarding Activity
