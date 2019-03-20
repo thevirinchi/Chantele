@@ -51,10 +51,12 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
      2. *Goto* **Git** -> **Branches**
      3. *Create* a **New Branch** and then *enter* the **name of the activity** you will be working on.
      4. Note: Leave the **Checkout Branch** *checked*. Click **OK**.
-  3. Work in this branch till it's complete and focus only on that one task.\
+  3. Work in this branch till it's complete and focus only on that one task.
 #### - Point to keep in mind:
    - Create **_different branches for different tasks_**.
-   - Push and commit your branch regularly.
+   - *Commit* and *Push* your branch regularly. ( *Work. Commit. Push. Repeat.* )
+   - To make working with Git easy, download **GitHub Desktop** from [here](https://desktop.github.com/).
+   - 
 
 ##  Work Divide
   Tasks
