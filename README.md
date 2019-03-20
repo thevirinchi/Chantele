@@ -56,7 +56,18 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
    - Create **_different branches for different tasks_**.
    - *Commit* and *Push* your branch regularly. ( *Work. Commit. Push. Repeat.* )
    - To make working with Git easy, download **GitHub Desktop** from [here](https://desktop.github.com/).
-   - 
+#### - Using GitHub for desktop
+  1. Login using your GitHub credentials.
+  2. Press *Cntl + O* and then navigate to the path of your copy of the project which should be something like\
+    ```
+    C:\Users\[username]\StudioProjects\[project name]
+    ```
+  3. Click on **Add Repository**.
+  4. Then under **Current branch**, select the branch corresponding to your task.
+  5. Now all the changes you do in the project under your working branch, will be reflected in the GitHub for Desktop.
+  6. To push all the changes to the GitHub repo,
+     1. Enter the summary of the work done till now, with a brief description. Commit.
+     2. Then press *Cntl + P* to push all the changes to GitHub repo. And Done!
 
 ##  Work Divide
   Tasks
