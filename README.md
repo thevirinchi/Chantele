@@ -51,7 +51,10 @@ To contribute to the project,
      2. *Goto* **Git** -> **Branches**
      3. *Create* a **New Branch** and then *enter* the **name of the activity** you will be working on.
      4. Note: Leave the **Checkout Branch** *checked*. Click **OK**.
-
+  3. Work in this branch till it's complete and focus only on that one task.
+Point to keep in mind:
+   - Create **_different branches for different tasks_**.
+   - Push and commit your branch regularly.
 
 ##  Work Divide
   Tasks
