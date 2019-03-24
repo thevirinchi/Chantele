@@ -11,6 +11,13 @@
     <string name="tabIndicator2">Tab Indicator 2</string>
     <string name="tabIndicator3">Tab Indicator 3</string>
     <string name="title_activity_search">Search</string>
+
+    <!-- Main Activity -->
+    <string name="topSongs">Top Songs</string>
+    <string name="genreEle">Electronic</string>
+    <string name="genreJaz">Jazz</string>
+    <string name="genreGam">Gaming</string>
+    <string name="genreRoc">Rock</string>
     <!-- Song Search -->
     <string name="search">Search</string>
 </resources>
