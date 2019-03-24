@@ -15,6 +15,10 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:hint="@string/search"
-        android:textSize="16dp"/>
+        android:textSize="16sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:lines="1"
+        android:textColorHint="@color/colorAccentDark"
+        android:maxLength="50"/>
 
 </android.support.v7.widget.LinearLayoutCompat>
