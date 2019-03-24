@@ -71,10 +71,11 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
 
 ##  Work Divide
   Tasks
-  - [x] On-Boarding Activity
-  - [ ] Login/Signup Activity (under dev)
-  - [ ] Main Activity ------- (under dev)
-  - [ ] Settings Activity --- [@dirag](https://github.com/dirag)
-  - [ ] FAQ Activity -------- [@sanjana2070](https://github.com/sanjana2070)
-  - [ ] Song Details Activity (TBD)
-  - [ ] User Profile Activity [@jainritika1203](https://github.com/jainritika1203)
+  - [x] On-Boarding Activity -- [@z3t4z00k](https://github.com/z3t4z00k)
+  - [ ] Login/Signup Activity - (TBD)
+  - [ ] Main Activity --------- [@z3t4z00k](https://github.com/z3t4z00k)
+  - [ ] Search Activity ------- [@z3t4z00k](https://github.com/z3t4z00k)
+  - [ ] Settings Activity ----- [@dirag](https://github.com/dirag)
+  - [ ] FAQ Activity ---------- [@sanjana2070](https://github.com/sanjana2070)
+  - [ ] Song Details Activity - (TBD)
+  - [ ] User Profile Activity - [@jainritika1203](https://github.com/jainritika1203)
