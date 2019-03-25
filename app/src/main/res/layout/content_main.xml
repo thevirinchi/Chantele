@@ -34,8 +34,7 @@
                     android:layout_marginBottom="16dp">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/charts"
                         android:text="@string/topSongs"/>
 
                 </RelativeLayout>
@@ -81,12 +80,7 @@
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/more"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView style="@style/viewMore"/>
 
                 </LinearLayout>
 
@@ -106,8 +100,7 @@
                     android:layout_marginBottom="16dp">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/charts"
                         android:text="@string/genreEle"/>
 
                 </RelativeLayout>
@@ -153,12 +146,7 @@
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/more"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView style="@style/viewMore"/>
 
                 </LinearLayout>
 
@@ -178,8 +166,7 @@
                     android:layout_marginBottom="16dp">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/charts"
                         android:text="@string/genreGam"/>
 
                 </RelativeLayout>
@@ -225,12 +212,7 @@
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/more"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView style="@style/viewMore"/>
 
                 </LinearLayout>
 
@@ -250,8 +232,7 @@
                     android:layout_marginBottom="16dp">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/charts"
                         android:text="@string/genreJaz"/>
 
                 </RelativeLayout>
@@ -297,12 +278,7 @@
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/more"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView style="@style/viewMore"/>
 
                 </LinearLayout>
 
@@ -322,8 +298,7 @@
                     android:layout_marginBottom="16dp">
 
                     <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        style="@style/charts"
                         android:text="@string/genreRoc"/>
 
                 </RelativeLayout>
@@ -369,12 +344,7 @@
                     android:layout_marginTop="8dp"
                     android:orientation="horizontal">
 
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="@string/more"
-                        android:textSize="12sp"
-                        android:textColor="@color/colorPrimaryDark"/>
+                    <TextView style="@style/viewMore"/>
 
                 </LinearLayout>
 

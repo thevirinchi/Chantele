@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#066CFF</color>
     <color name="colorAccent">#FFFFFF</color>
     <color name="colorAccentDark">#AAAAAA</color>
+    <color name="colorAccentBlack">#666</color>
+    <color name="colorAccentDarkBlack">#333</color>
     <color name="colorSecondary">#FFBB00</color>
     <color name="cyan">#3B78F7</color>
     <color name="green">#EF6C00</color>
