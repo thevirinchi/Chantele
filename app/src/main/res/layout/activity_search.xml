@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".search"
-    android:background="#000">
+    android:background="@drawable/main_bg">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="@dimen/fab_margin"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:backgroundTint="@color/colorSecondary"
         android:tint="@color/colorAccent"
         app:srcCompat="@android:drawable/ic_search_category_default"/>
 
