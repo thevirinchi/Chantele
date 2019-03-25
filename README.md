@@ -70,22 +70,6 @@ Else click on `Check out project from Version Control` (GitHub is a version cont
      2. Then press *Cntl + P* to push all the changes to GitHub repo. And Done!
 
 ##  Work Divide
-  1. Basic Structure
-     - [x] On-Boarding Activity -- [@z3t4z00k](https://github.com/z3t4z00k)
-     - [ ] Login/Signup Activity - (TBD)
-     - [ ] Main Activity --------- [@z3t4z00k](https://github.com/z3t4z00k)
-     - [ ] Search Activity ------- [@z3t4z00k](https://github.com/z3t4z00k)
-     - [ ] Settings Activity ----- [@dirag](https://github.com/dirag)
-     - [ ] FAQ Activity ---------- [@sanjana2070](https://github.com/sanjana2070)
-     - [ ] Song Details Activity - (TBD)
-     - [ ] User Profile Activity - [@jainritika1203](https://github.com/jainritika1203)
-  2. Back-End
-     - [ ] User Profile Data Storage
-     - [ ] User Profile Data Fetch
-     - [ ] Delete User Data
-     - [ ] Manage Songs Database
-     - [ ] Searching songs
-  3. Finishing touches
-     - [ ] Check Workflow
-     - [ ] Animations
-     - [ ] UI
+  1. [Basic Structure](https://github.com/z3t4z00k/Chantele/projects/1)
+  2. [Back-End](https://github.com/z3t4z00k/Chantele/projects/2)
+  3. [Finishing touches](https://github.com/z3t4z00k/Chantele/projects/3)
