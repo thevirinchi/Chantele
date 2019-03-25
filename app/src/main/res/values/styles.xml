@@ -17,11 +17,65 @@
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+
+    <!-- MAIN ACTIVITY -->
+
+    <style name="chartContainer">
+        <item name="android:padding">8dp</item>
+        <item name="android:background">@drawable/round_corner</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="chartHeadContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
     <style name="charts">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/colorAccentDarkBlack</item>
+    </style>
+
+    <style name="songFrameContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="songCoverSFrame">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:background">@drawable/charts_border</item>
+    </style>
+
+    <style name="songCoverSFrameLast">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/charts_border</item>
+    </style>
+
+    <style name="songCoverS">
+        <item name="android:layout_width">wrap_content</item> <!-- TODO: Change the width to "match_parent" after demo -->
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_gravity">center|center</item>
+        <item name="tint">@color/colorAccentDark</item> <!-- TODO: Remove after demo -->
+    </style>
+
+    <style name="viewMoreContainer">
+        <item name="android:layoutDirection">rtl</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:orientation">horizontal</item>
     </style>
 
     <style name="viewMore">
@@ -32,4 +86,5 @@
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
     </style>
+
 </resources>
