@@ -14,6 +14,7 @@
     <string name="title_activity_search">Search</string>
 
     <!-- Main Activity -->
+    <string name="songCovers">Song Covers</string>
     <string name="more">View more</string>
     <string name="topSongs">Top Songs</string>
     <string name="genreEle">Electronic</string>

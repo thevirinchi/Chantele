@@ -11,7 +11,7 @@
 
     <ScrollView
         android:isScrollContainer="true"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <LinearLayout
@@ -20,18 +20,9 @@
             android:orientation="vertical"
             android:padding="16dp">
 
-            <LinearLayout
-                android:padding="8dp"
-                android:background="@drawable/round_corner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="vertical">
+            <LinearLayout style="@style/chartContainer">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp">
+                <RelativeLayout style="@style/chartHeadContainer">
 
                     <TextView
                         style="@style/charts"
@@ -39,65 +30,55 @@
 
                 </RelativeLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                <LinearLayout style="@style/songFrameContainer">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    <FrameLayout style="@style/songCoverSFrame">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    </FrameLayout>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"/>
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layoutDirection="rtl"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:orientation="horizontal">
-
+                <LinearLayout style="@style/viewMoreContainer">
                     <TextView style="@style/viewMore"/>
-
                 </LinearLayout>
 
             </LinearLayout>
 
-            <LinearLayout
-                android:padding="8dp"
-                android:background="@drawable/round_corner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="vertical">
+            <LinearLayout style="@style/chartContainer">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp">
+                <RelativeLayout style="@style/chartHeadContainer">
 
                     <TextView
                         style="@style/charts"
@@ -105,65 +86,55 @@
 
                 </RelativeLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                <LinearLayout style="@style/songFrameContainer">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    <FrameLayout style="@style/songCoverSFrame">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    </FrameLayout>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"/>
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layoutDirection="rtl"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:orientation="horizontal">
-
+                <LinearLayout style="@style/viewMoreContainer">
                     <TextView style="@style/viewMore"/>
-
                 </LinearLayout>
 
             </LinearLayout>
 
-            <LinearLayout
-                android:padding="8dp"
-                android:background="@drawable/round_corner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="vertical">
+            <LinearLayout style="@style/chartContainer">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp">
+                <RelativeLayout style="@style/chartHeadContainer">
 
                     <TextView
                         style="@style/charts"
@@ -171,65 +142,55 @@
 
                 </RelativeLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                <LinearLayout style="@style/songFrameContainer">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    <FrameLayout style="@style/songCoverSFrame">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    </FrameLayout>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"/>
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layoutDirection="rtl"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:orientation="horizontal">
-
+                <LinearLayout style="@style/viewMoreContainer">
                     <TextView style="@style/viewMore"/>
-
                 </LinearLayout>
 
             </LinearLayout>
 
-            <LinearLayout
-                android:padding="8dp"
-                android:background="@drawable/round_corner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="vertical">
+            <LinearLayout style="@style/chartContainer">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp">
+                <RelativeLayout style="@style/chartHeadContainer">
 
                     <TextView
                         style="@style/charts"
@@ -237,65 +198,55 @@
 
                 </RelativeLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                <LinearLayout style="@style/songFrameContainer">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    <FrameLayout style="@style/songCoverSFrame">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    </FrameLayout>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"/>
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layoutDirection="rtl"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:orientation="horizontal">
-
+                <LinearLayout style="@style/viewMoreContainer">
                     <TextView style="@style/viewMore"/>
-
                 </LinearLayout>
 
             </LinearLayout>
 
-            <LinearLayout
-                android:padding="8dp"
-                android:background="@drawable/round_corner"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="16dp"
-                android:orientation="vertical">
+            <LinearLayout style="@style/chartContainer">
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="16dp">
+                <RelativeLayout style="@style/chartHeadContainer">
 
                     <TextView
                         style="@style/charts"
@@ -303,49 +254,48 @@
 
                 </RelativeLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                <LinearLayout style="@style/songFrameContainer">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    <FrameLayout style="@style/songCoverSFrame">
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"
-                        android:layout_marginEnd="8dp"/>
+                    </FrameLayout>
 
-                    <ImageView
-                        android:layout_width="0dp"
-                        android:layout_height="100dp"
-                        android:layout_weight="1"
-                        android:src="@drawable/charts_border"/>
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layoutDirection="rtl"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="8dp"
-                    android:orientation="horizontal">
-
+                <LinearLayout style="@style/viewMoreContainer">
                     <TextView style="@style/viewMore"/>
-
                 </LinearLayout>
 
             </LinearLayout>
