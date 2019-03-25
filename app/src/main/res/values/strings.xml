@@ -3,6 +3,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_on_board">Chantele</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
     <!-- onBoard strings -->
     <string name="next">Next</string>
     <string name="skip">Skip</string>
@@ -11,6 +12,26 @@
     <string name="tabIndicator2">Tab Indicator 2</string>
     <string name="tabIndicator3">Tab Indicator 3</string>
     <string name="title_activity_search">Search</string>
+
+    <!-- Main Activity -->
+    <string name="more">View more</string>
+    <string name="topSongs">Top Songs</string>
+    <string name="genreEle">Electronic</string>
+    <string name="genreJaz">Jazz</string>
+    <string name="genreGam">Gaming</string>
+    <string name="genreRoc">Rock</string>
+
     <!-- Song Search -->
     <string name="search">Search</string>
+    <string name="search1">Song search one</string>
+    <string name="search2">Song search two</string>
+    <string name="search3">Song search three</string>
+    <string name="search4">Song search four</string>
+    <string name="search5">Song search five</string>
+    <string name="search6">Song search six</string>
+    <string name="search7">Song search seven</string>
+    <string name="search8">Song search eight</string>
+    <string name="search9">Song search nine</string>
+    <string name="search10">Song search ten</string>
+
 </resources>
