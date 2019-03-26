@@ -13,9 +13,6 @@
     <string name="tabIndicator3">Tab Indicator 3</string>
     <string name="title_activity_search">Search</string>
 
-    <!-- Song Search -->
-    <string name="search">Search</string>
-
     <!-- Profile Strings -->
     <string name="title_activity_profile">Profile</string>
     <string name="username">Username</string>
