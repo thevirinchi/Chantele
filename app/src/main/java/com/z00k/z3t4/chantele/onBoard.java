@@ -111,7 +111,7 @@ public class onBoard extends AppCompatActivity {
                         mViewPager.setBackgroundColor(color3);
                         break;
                 }
-
+                mSkipButton.setVisibility(position == 2 ? View.GONE : View.VISIBLE);
                 mNextButton.setVisibility(position == 2 ? View.GONE : View.VISIBLE);
                 mFinishButton.setVisibility(position == 2? View.VISIBLE : View.GONE);
             }

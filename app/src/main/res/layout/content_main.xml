@@ -6,15 +6,302 @@
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".MainActivity"
-    tools:showIn="@layout/activity_main">
+    tools:showIn="@layout/activity_main"
+    android:background="@drawable/main_bg">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:isScrollContainer="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout style="@style/chartContainer">
+
+                <RelativeLayout style="@style/chartHeadContainer">
+
+                    <TextView
+                        style="@style/charts"
+                        android:text="@string/topSongs"/>
+
+                </RelativeLayout>
+
+                <LinearLayout style="@style/songFrameContainer">
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/viewMoreContainer">
+                    <TextView style="@style/viewMore"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/chartContainer">
+
+                <RelativeLayout style="@style/chartHeadContainer">
+
+                    <TextView
+                        style="@style/charts"
+                        android:text="@string/genreEle"/>
+
+                </RelativeLayout>
+
+                <LinearLayout style="@style/songFrameContainer">
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/viewMoreContainer">
+                    <TextView style="@style/viewMore"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/chartContainer">
+
+                <RelativeLayout style="@style/chartHeadContainer">
+
+                    <TextView
+                        style="@style/charts"
+                        android:text="@string/genreGam"/>
+
+                </RelativeLayout>
+
+                <LinearLayout style="@style/songFrameContainer">
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/viewMoreContainer">
+                    <TextView style="@style/viewMore"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/chartContainer">
+
+                <RelativeLayout style="@style/chartHeadContainer">
+
+                    <TextView
+                        style="@style/charts"
+                        android:text="@string/genreJaz"/>
+
+                </RelativeLayout>
+
+                <LinearLayout style="@style/songFrameContainer">
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/viewMoreContainer">
+                    <TextView style="@style/viewMore"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/chartContainer">
+
+                <RelativeLayout style="@style/chartHeadContainer">
+
+                    <TextView
+                        style="@style/charts"
+                        android:text="@string/genreRoc"/>
+
+                </RelativeLayout>
+
+                <LinearLayout style="@style/songFrameContainer">
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrame">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout style="@style/songCoverSFrameLast">
+
+                        <ImageView
+                            style="@style/songCoverS"
+                            android:contentDescription="@string/songCovers"
+                            android:src="@drawable/ic_music_video_black_24dp"/>
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+                <LinearLayout style="@style/viewMoreContainer">
+                    <TextView style="@style/viewMore"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </android.support.constraint.ConstraintLayout>
