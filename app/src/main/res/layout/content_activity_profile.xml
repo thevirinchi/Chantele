@@ -9,17 +9,15 @@
     tools:showIn="@layout/activity_profile">
 
     <LinearLayout
-        android:padding="16dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="24dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:minHeight="400dp"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        <LinearLayout style="@style/profileFieldContainer">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -36,11 +34,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        <LinearLayout style="@style/profileFieldContainer">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -57,11 +51,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        <LinearLayout style="@style/profileFieldContainer">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -77,11 +67,7 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        <LinearLayout style="@style/profileFieldContainer">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -97,17 +83,13 @@
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_weight="1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+        <LinearLayout style="@style/profileFieldContainer">
 
-         <Button
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:text="@string/logout"
-             android:textSize="14sp"/>
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/logout"
+                 android:textSize="14sp"/>
 
         </LinearLayout>
 
